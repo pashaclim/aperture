@@ -206,6 +206,8 @@ body{
     text-align: center;
 
 
+
+
 }
 .client_links h6{
     font-family: 'Poppins', sans-serif;
@@ -230,10 +232,12 @@ body{
 }
 
 .links{
-    display: flex;
+
     justify-content: space-around;
     align-items: center;
-    min-width: 128px;
+    width: 128px;
+    display: inline-block;
+
 }
 .mountain{
     background-image: url("../images/imagemountain.jpg");
@@ -332,4 +336,10 @@ body{
     border-radius: 12px;
 
 }
-
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-item{
+    text-align: center;
+}
