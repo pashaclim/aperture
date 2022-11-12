@@ -235,8 +235,8 @@ body{
 
     justify-content: space-around;
     align-items: center;
-    width: 128px;
-    display: inline-block;
+    max-width: 1168px;
+    margin: auto;
 
 }
 .mountain{
@@ -342,4 +342,8 @@ body{
 }
 .owl-item{
     text-align: center;
+}
+.client_links a{
+    max-width: 128px;
+    display: inline-block;
 }
