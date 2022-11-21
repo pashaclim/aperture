@@ -1,42 +1,190 @@
-@media screen and (max-width: 360px){
-    .sub_container {
-        margin-left: 85px;
+@media screen and (max-width: 280px) {
+    .fixid_location{
+        text-align: center;
+        flex-direction: column;
+        bottom: 10px;
+        left: 17px;
+        display: none;
+    }
+   .sunset .sub_container{
+        text-align: center;
+        margin-right: 0px;
 
     }
-    .leavs_container{
-        padding-left: 87px;
-    }
-
-
+   .sunset{
+       min-height: 500px;
+   }
+   .leavs .leavs_container{
+       text-align: center;
+       margin: auto;
+   }
+   .leavs{
+       min-height: 500px;
+   }
+   .mountain .mountain_style{
+       text-align: center;
+       margin: auto;
+   }
+   .mountain{
+       min-height: 500px;
+   }
+   .faq .text{
+       text-align: center;
+       margin-left: 10px;
+   }
+   .faq .container{
+       flex-wrap: wrap;
+   }
+   .faq .container .text p{
+       padding-top: 10px;
+   }
 }
 
-    @media screen and (min-width: 280px) {
-        .leavs .fixid_location{
-            min-width: 280px;
-            margin-left: 40px;
+    @media screen and (max-width: 320px) {
+        .leavs .leavs_container{
+            text-align: center;
+            margin: auto;
+        }
+        .sunset .sub_container{
+            text-align: center;
+            margin: auto;
+        }
+        .mountain .mountain_style{
+            text-align: center;
+            margin: auto;
+        }
+        .faq .container{
+            flex-wrap: wrap;
+           text-align: center;
 
         }
-
-
+        .faq .container .text h3{
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        .faq .container .text p{
+            text-align: center;
+            margin-left: 50px;
+        }
     }
-    @media screen and (max-width: 320px) {
+  @media screen and (max-width: 360px) {
+      .leavs .leavs_container{
+          text-align: center;
+          margin: auto;
+      }
+      .sunset .sub_container{
+          text-align: center;
+          margin: auto;
+      }
+      .mountain .mountain_style{
+          text-align: center;
+          margin: auto;
+      }
 
-    }
+
+  }
+
     @media screen and (max-width: 375px) {
+        .faq .container{
+            flex-wrap: wrap;
+            text-align: center;
+
+        }
+        .faq .container .text h3{
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        .faq .container .text p{
+            text-align: center;
+            margin-left: 50px;
+        }
 
     }
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 391px) {
 
     }
     @media screen and (max-width: 412px) {
+        .section_banner .h_p .h1{
+            font-size: 65px;
+
+        }
+        .faq .container{
+            flex-wrap: wrap;
+            text-align: center;
+
+        }
+        .faq .container .text h3{
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        .faq .container .text p{
+            text-align: center;
+            margin-left: 50px;
 
     }
     @media screen and (max-width: 414px) {
 
     }
-    @media screen and (max-width: 880px) {
+
 
     }
+    @media screen and (max-width: 428px) {
+        .section_banner {
+            height: 85vh;
+        }
+
+        .leavs_container {
+            margin: auto;
+        }
+
+        .cd-3d-nav-trigger {
+            display: inline-block;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        #navbar {
+            display: none;
+        }
+        .faq .container .text h3{
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        .faq .container .text p{
+            text-align: center;
+            margin-left: 50px;
+    }
+        .faq .container{
+            flex-wrap: wrap;
+            text-align: center;
+            padding-left: 30px;
+    }
+        .faq .text{
+            max-width: 710px;
+        }
+
+        }
+
+
+
+    @media screen and (max-width: 880px) {
+       .faq .accordion{
+           margin-right: 35px;
+
+       }
+        .faq .container .text h3{
+            font-size: 35px;
+            align-content: center;
+            padding-right: 20px;
+
+
+        }
+        .faq .container .text p{
+            padding-right: 25px;
+        }
+        }
+
+
+
     @media screen and (max-width: 826px) {
 
     }
@@ -48,29 +196,5 @@
     }
 
 
-@media screen and (max-width: 428px) {
-    .section_banner{
-        height: 80vh;
-    }
-    .mountain_style{
-        margin-left: 140px;
-    }
-    .leavs_container{
-        margin: auto;
-    }
 
 
-}
-@media screen and (max-width: 768px) {
-    #navbar{
-        display: none;
-    }
-
-}
-@media screen and (max-width: 834px) {
-    .a1234{
-        margin-right: 7px;
-        font-size: 9px;
-    }
-
-}
