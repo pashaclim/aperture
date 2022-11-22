@@ -84,7 +84,7 @@
 
   }
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 376px) {
         .faq .container{
             flex-wrap: wrap;
             text-align: center;
@@ -102,26 +102,32 @@
     }
     @media screen and (max-width: 391px) {
 
-    }
+        }
+
+
     @media screen and (max-width: 412px) {
-        .section_banner .h_p .h1{
+        .section_banner .h_p .h1 {
             font-size: 65px;
 
         }
-        .faq .container{
+
+        .faq .container {
             flex-wrap: wrap;
             text-align: center;
 
         }
-        .faq .container .text h3{
+
+        .faq .container .text h3 {
             font-size: 30px;
             margin-left: 50px;
         }
-        .faq .container .text p{
+
+        .faq .container .text p {
             text-align: center;
             margin-left: 50px;
 
-    }
+        }
+
     @media screen and (max-width: 414px) {
 
     }
@@ -141,7 +147,7 @@
             display: inline-block;
         }
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 769px) {
         #navbar {
             display: none;
         }
@@ -185,15 +191,42 @@
 
 
 
-    @media screen and (max-width: 826px) {
+    @media screen and (max-width: 827px) {
+
 
     }
     @media screen and (max-width: 992px) {
 
     }
     @media screen and (max-width: 1024px) {
+        .faq .container .text h3{
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        .faq .container .text p{
+            text-align: center;
+            margin-left: 50px;
+        }
+        .faq .container{
+            flex-wrap: wrap;
+            text-align: center;
+            padding-left: 30px;
 
     }
+        .faq .text{
+
+        max-width: 948px;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+        .faq .accordion{
+            max-width: 950px;
+        }
+    }
+
+
+
+
 
 
 
