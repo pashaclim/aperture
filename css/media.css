@@ -143,13 +143,30 @@
             margin: auto;
         }
 
-        .cd-3d-nav-trigger {
-            display: inline-block;
-        }
+
     }
-@media screen and (max-width: 654px){
+@media screen and (max-width: 768px){
+    .items1{
+        margin: 0;
+    }
+    .item23{
+        margin: 0;
+    }
+    .item4{
+        margin: 0;
+    }
+    .item5{
+        margin: 0;
+    }
+    .a5{
+        box-sizing: border-box;
+    }
+    /*.container_header .d_flex{*/
+    /*    justify-content: space-between;*/
+    /*}*/
+
     .cd-3d-nav-trigger{
-        display: inline-block;
+        display: block;
     }
     .cd-3d-nav-container {
         /* this is the 3D navigation container */
@@ -332,91 +349,94 @@
         -webkit-transition: opacity 0.5s 0s, visibility 0s 0.5s;
         -moz-transition: opacity 0.5s 0s, visibility 0s 0.5s;
         transition: opacity 0.5s 0s, visibility 0s 0.5s; }
+
     .tools .position_bg {
         position: relative;
         width: 100%;
     }
 
 
+
 }
 
-    @media screen and (max-width: 769px) {
-        #navbar {
-            display: none;
-        }
-        .faq .container .text h3{
-            font-size: 30px;
-            margin-left: 50px;
-        }
-        .faq .container .text p{
-            text-align: center;
-            margin-left: 50px;
-    }
-        .faq .container{
-            flex-wrap: wrap;
-            text-align: center;
-            padding-left: 30px;
-    }
-        .faq .text{
-            max-width: 710px;
-        }
+    /*@media screen and (max-width: 769px) {*/
+    /*    #navbar {*/
+    /*        display: none;*/
+    /*    }*/
+    /*    .faq .container .text h3{*/
+    /*        font-size: 30px;*/
+    /*        margin-left: 50px;*/
+    /*    }*/
+    /*    .faq .container .text p{*/
+    /*        text-align: center;*/
+    /*        margin-left: 50px;*/
+    /*}*/
+    /*    .faq .container{*/
+    /*        flex-wrap: wrap;*/
+    /*        text-align: center;*/
+    /*        padding-left: 30px;*/
+    /*}*/
+    /*    .faq .text{*/
+    /*        max-width: 710px;*/
+    /*    }*/
 
-        }
-
-
-
-
-    @media screen and (max-width: 880px) {
-       .faq .accordion{
-           margin-right: 35px;
-
-       }
-        .faq .container .text h3{
-            font-size: 35px;
-            align-content: center;
-            padding-right: 20px;
-
-
-        }
-        .faq .container .text p{
-            padding-right: 25px;
-        }
-        }
+    /*    }*/
 
 
 
-    @media screen and (max-width: 827px) {
+
+    /*@media screen and (max-width: 880px) {*/
+    /*   .faq .accordion{*/
+    /*       margin-right: 35px;*/
+
+    /*   }*/
+    /*    .faq .container .text h3{*/
+    /*        font-size: 35px;*/
+    /*        align-content: center;*/
+    /*        padding-right: 20px;*/
 
 
-    }
-    @media screen and (max-width: 992px) {
+    /*    }*/
+    /*    .faq .container .text p{*/
+    /*        padding-right: 25px;*/
+    /*    }*/
+    /*    }*/
 
-    }
-    @media screen and (max-width: 1024px) {
-        .faq .container .text h3{
-            font-size: 30px;
-            margin-left: 50px;
-        }
-        .faq .container .text p{
-            text-align: center;
-            margin-left: 50px;
-        }
-        .faq .container{
-            flex-wrap: wrap;
-            text-align: center;
-            padding-left: 30px;
 
-    }
-        .faq .text{
 
-        max-width: 948px;
-        padding-right: 50px;
-        box-sizing: border-box;
-    }
-        .faq .accordion{
-            max-width: 950px;
-        }
-    }
+    /*@media screen and (max-width: 827px) {*/
+
+
+    /*}*/
+    /*@media screen and (max-width: 992px) {*/
+
+    /*}*/
+    /*@media screen and (max-width: 1024px) {*/
+    /*    .faq .container .text h3{*/
+    /*        font-size: 30px;*/
+    /*        margin-left: 50px;*/
+    /*    }*/
+    /*    .faq .container .text p{*/
+    /*        text-align: center;*/
+    /*        margin-left: 50px;*/
+    /*    }*/
+    /*    .faq .container{*/
+    /*        flex-wrap: wrap;*/
+    /*        text-align: center;*/
+    /*        padding-left: 30px;*/
+
+    /*}*/
+    /*    .faq .text{*/
+
+    /*    max-width: 948px;*/
+    /*    padding-right: 50px;*/
+    /*    box-sizing: border-box;*/
+    /*}*/
+    /*    .faq .accordion{*/
+    /*        max-width: 950px;*/
+    /*    }*/
+    /*}*/
+
 
 
 
