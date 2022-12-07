@@ -1,38 +1,38 @@
-@media screen and (max-width: 280px) {
+/*@media screen and (max-width: 280px) {*/
 
-   .sunset .sub_container{
-        text-align: center;
-        margin-right: 0px;
+/*   .sunset .sub_container{*/
+/*        text-align: center;*/
+/*        margin-right: 0px;*/
 
-    }
-   .sunset{
+/*    }*/
+/*   .sunset{*/
 
-   }
-   .leavs .leavs_container{
-       text-align: center;
-       margin: auto;
-   }
-   .leavs{
-       min-height: 500px;
-   }
-   .mountain .mountain_style{
-       text-align: center;
-       margin: auto;
-   }
-   .mountain{
-       min-height: 500px;
-   }
-   .faq .text{
-       text-align: center;
-       margin-left: 10px;
-   }
-   .faq .container{
-       flex-wrap: wrap;
-   }
-   .faq .container .text p{
-       padding-top: 10px;
-   }
-}
+/*   }*/
+/*   .leavs .leavs_container{*/
+/*       text-align: center;*/
+/*       margin: auto;*/
+/*   }*/
+/*   .leavs{*/
+/*       min-height: 500px;*/
+/*   }*/
+/*   .mountain .mountain_style{*/
+/*       text-align: center;*/
+/*       margin: auto;*/
+/*   }*/
+/*   .mountain{*/
+/*       min-height: 500px;*/
+/*   }*/
+/*   .faq .text{*/
+/*       text-align: center;*/
+/*       margin-left: 10px;*/
+/*   }*/
+/*   .faq .container{*/
+/*       flex-wrap: wrap;*/
+/*   }*/
+/*   .faq .container .text p{*/
+/*       padding-top: 10px;*/
+/*   }*/
+/*}*/
 
 
 
